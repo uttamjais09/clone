@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #181818; 
+    font-family: sans-serif;
+}
+
+.bar{
+    
+    display: flex;
+    list-style-type:none ;
+    background-color:#181818;
+    
+    
+    
+
+}
+.bar li{
+    
+    padding: 10px 0; 
+  
+}
+#logo{
+    width: 250px;
+    height: 250px;
+    clip-path: circle(30%);
+    
+    
+     
+  
+}
+#searchImage{
+    font-size: 100px;
+    color: antiquewhite;
+    
+    
+    
+}
+.wind{
+    margin-left: 20px;
+    margin-top: 65px;
+    font-size: 100px;
+    
+}
+
+.hou{
+    margin-left: 15%;
+    margin-top: 65px;
+    font-size: 100px;
+    margin-right: 20px;
+    
+    
+}
+.inp{
+    margin-top: 30px;
+    
+}
+.searchBox{
+
+    
+    font-size: 100px;
+    padding: 40px 600px;
+    color: dodgerblue;
+    
+    
+    border-radius: 100px;
+    
+}
+#home{
+    font-size: 100px;
+    color: antiquewhite;
+}
+#window{
+    font-size: 100px;
+    color: antiquewhite;
+}
+.signUp{
+    margin-top: 65px;
+    margin-right: ;
+    color: aliceblue;
+    
+    
+}
+#sign{
+    margin-left:15% ;
+}
+
+
+.signUp button{
+    font-size: 100px;
+    
+      
+}
+.signUp button a{
+    padding: 40px 100px ;
+    border-radius: 50px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#login button a{
+    background-color: aliceblue;
+    color: black;  
+}
+/* main style */
+.left {   
+    
+  max-height: 100%;   
+    float: left; 
+    margin-top: 3%;
+    border: 1px solid black;
+    
+
+   
+    background-color: #f2040400;
+
+
+    
+}
+.left.side{
+    width:30% ;
+    
+    
+
+}
+.left.middle{
+    width:69%;
+    overflow-y: scroll;
+
+    
+}
+.left.middle::-webkit-scrollbar{
+    display: none;
+}
+.main{
+    content: "";
+    
+    
+}
+
+.envelope{
+    margin:70px 0px 100px 59px;
+    
+    font-size: 70px;
+    
+}
+#plus{
+    color: aliceblue;
+    float: right;
+    margin-right:20px ;
+
+}
+.envelope a{
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.scroll{
+    width:90%;
+    height:40%;
+    
+color: antiquewhite;
+    margin-top: 30px;
+    font-size: 70px;
+    padding: 20px;
+    margin-left: 30px;
+    overflow-y: scroll;
+    
+
+}
+.scroll::-webkit-scrollbar{
+
+    display: none;
+}
+.column ,.column2{
+    border: 5px solid black;
+    margin-bottom: 50px;
+    padding: 5%;
+    height: 35%;
+    border-radius: 50px;
+    
+}
+.scroll p{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.browse{
+    background-color: wheat;
+    color: #181818;
+    padding: 20px;
+    border-radius:  50px; 
+    text-decoration: none;
+    font-weight: bold;
+   
+    
+    
+}
+.column3{
+    overflow-x: auto;
+    
+    margin-top: 10%;
+    font-size: 30px;
+}
+.column3 li{
+    float: left;
+    font-size: 50px;
+    list-style-type: none;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+h1 ,h2{
+    margin:50px ;
+
+}
+
+
+.images{
+    width:900px;
+    height:900px;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+#heading{
+    color:aliceblue;
+    font-size:50px;
+}
+.second{
+    color:aliceblue;
+    font-size:50px;
+}
+#heading ul, .mark2{
+    width: 100%;
+    display:flex;
+    overflow-x: scroll;
+    list-style-type: none;
+    font-size: 50px;
+    color: aliceblue;
+}
+#heading ul::-webkit-scrollbar{
+    display: none;
+}
+
+.mark2::-webkit-scrollbar{
+    display: none;
+}
+.singerList {
+    
+    
+}
+.movies {
+    width :1000px;
+    height: 800px;
+    margin-right: 50px;
+    
+}
+.column3 ul{
+    padding-bottom: 200px;
+}
+
+.column3 li a {
+    color: white;
+    text-decoration: none;
+}
+.volley{
+    color: antiquewhite;
+}
